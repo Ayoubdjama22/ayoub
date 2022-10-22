@@ -41,7 +41,7 @@ st.title ("Covid-19 Dashboard For Ethiopia")
 
 st.image('Courtesy-of-ACM-Capital-Partners-LO.png')
 
-st.caption("Ayoub Djama Waberi")
+
 st.sidebar.title("Descriptive Statistics")
 
 
@@ -51,7 +51,7 @@ def load_data():
     
     return df
            
-
+st.markdown("Ayoub Djama Waberi")
 
 
 st.markdown("The dashboard will visualize the Covid-19 Situation in Ethiopia")
